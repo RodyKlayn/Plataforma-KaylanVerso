@@ -54,6 +54,10 @@ html {
     transform: scale(1.03);
 }
 
+.content3:hover {
+    transform: scale(1.03);
+}
+
 .ahead {
     margin-left: 35px;
     margin-right: 15px;
