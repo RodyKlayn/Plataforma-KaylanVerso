@@ -2,7 +2,12 @@ html {
     background-color: #222;
 }
 
+body {
+    margin: 0px;
+}
+
 .header {
+    background-color: #111;
     display: flex;
     padding: 0px;
     margin: 0px;
@@ -15,9 +20,9 @@ html {
 
 .content {
     margin-left: 200px;
-    margin-top: 10px;
+    margin-top: 25px;
     width: 1500px;
-    height: 550px;
+    height: 410px;
     box-shadow: 0 10px 30px #000;
     border-radius: 12px;
 }
@@ -28,6 +33,7 @@ html {
     transition: ease 0.2s;
     box-shadow: 0 10px 20px #000;
     border-radius: 8px;
+    margin-bottom: 20px;
 }
 
 .content3 {
@@ -36,18 +42,25 @@ html {
     transition: ease 0.2s;
     box-shadow: 0 10px 20px #000;
     border-radius: 8px;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
 
 .subtitles {
     font-size: 22px;
     font-family: 'Mukta', sans-serif;
     color: azure;
-    padding-left: 260px;
+    margin-left: 260px;
     margin-bottom: 10px;
 }
 
 .box {
-    padding-left: 230px;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: 230px;
+    margin-bottom: 40px;
+    margin-top: 0px;
+    overflow: auto;
 }
 
 .content2:hover {
@@ -68,10 +81,59 @@ html {
 
 .box2 {
     margin-top: 0px;
-    margin-left: 224px;
+    margin-left: 130px;
+    margin-right: 130px;
     display: flex;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
 }
 
 #subtitle2 {
+    margin-top: 15px;
+    margin-bottom: 0px;
+    margin-left: 146px;
+}
+
+.box2::-webkit-scrollbar {
+    height: 8px;
+}
+
+.box2::-webkit-scrollbar-thumb {
+    background-color: azure;
+    border-radius: 5px;
+}
+
+.box::-webkit-scrollbar {
+    height: 8px;
+}
+
+.box::-webkit-scrollbar-thumb {
+    background-color: azure;
+    border-radius: 5px;
+}
+
+#first {
+    margin-left: 18px;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: azure;
+    border-radius: 5px;
+}
+
+#last {
+    margin-right: 18px
+}    
+    
+#link-inicio {
+    text-decoration: none;
+}
+
+#subtitle {
     margin-top: 30px;
 }
