@@ -175,6 +175,7 @@ footer {
         width: 370px;
         height: 150px;
         margin-left: 20px;
+        box-shadow: 0 5px 20px #000;
     }
 
     .content2 {
@@ -182,11 +183,17 @@ footer {
         margin-right: 0px;
         margin-left: 15px;
         margin-top: 5px;
+        box-shadow: 0 5px 15px #000;
     }
 
     .box {
         margin-left: 5px;
-        margin-right: 25px;
+        margin-right: 16px;
+        margin-bottom: 25px;
+    }
+
+    #first, #first2 {
+        margin-left: 12px;
     }
 
     #subtitle {
@@ -208,11 +215,12 @@ footer {
         margin-right: 0px;
         margin-left: 15px;
         margin-top: 5px;
+        box-shadow: 0 5px 15px #000;
     }
 
     .box2 {
         margin-left: 5px;
-        margin-right: 25px;
+        margin-right: 16px;
     }
 
     #subtitle2 {
@@ -224,9 +232,5 @@ footer {
     footer {
         margin: 0px;
         padding: 0px;
-    }
-
-    #footer {
-        margin-top: 190px;
     }
 }
