@@ -234,3 +234,23 @@ footer {
         padding: 0px;
     }
 }
+
+@media only screen and ( max-width: 400px) {
+    .content {
+        margin-left: 20px;
+        width: 350px;
+        height: 150px;
+    }
+
+    .content2, .content3{
+        width: 170px;
+        margin-right: 0px;
+        margin-left: 15px;
+        margin-top: 5px;
+    }
+
+    .box, .box2 {
+        margin-right: 12px;
+    }
+}
+    
